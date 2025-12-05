@@ -1,1 +1,97 @@
-/* Add your own styles */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4a5568;
+    padding: 25px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Main section */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Controls */
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+#controls label {
+    font-weight: bold;
+}
+
+#country {
+    width: 300px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons */
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#lookup {
+    background-color: #38b2ac;
+    color: white;
+}
+
+#lookup:hover {
+    background-color: #319795;
+}
+
+/* Results table */
+#result {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #edf2f7;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9fafb;
+}
